@@ -1,0 +1,48 @@
+# Full-Stack MVP Project - Task Checklist
+
+## Frontend Tasks
+- [x] Initialize frontend Vite React TypeScript project and install all dependencies
+- [x] Configure TailwindCSS, TypeScript, and project structure (folders: pages, components, context, api, types, i18n)
+- [x] Set up i18next with en/ar translations, create translation JSON files for all UI text
+- [x] Create shared TypeScript types in src/types/api.ts for API responses and DTOs
+- [x] Implement AuthContext with login(), logout(), refreshToken() methods and JWT token storage
+- [x] Create Axios instance with request/response interceptors for auto token attachment and refresh
+- [x] Create ProtectedRoute component for route protection
+- [x] Implement all pages: Landing, Register, Login, Dashboard with forms, validation, and i18n
+
+## Backend Tasks
+- [x] Initialize NestJS project and install all dependencies (JWT, Passport, Prisma, bcrypt)
+- [x] Create Prisma schema with User model, Role enum, and database configuration
+- [x] Create Prisma module and service for database access
+- [x] Create auth DTOs (RegisterDto, LoginDto, RefreshTokenDto) with class-validator decorators
+- [x] Implement auth service with register (bcrypt), login (JWT generation), and refresh token logic
+- [x] Create auth controller with /register, /login, /refresh, /me endpoints
+- [x] Implement JWTAuthGuard for JWT authentication
+- [x] Implement RolesGuard and @Roles decorator for role-based authorization
+- [x] Create user module with admin-only protected route example
+- [x] Set up environment variables, JWT configuration, and database connection
+
+## Documentation Tasks
+- [x] Create README.md with installation, database setup, and running instructions for both frontend and backend
+- [x] Create ToDo file with all tasks listed
+
+## Next Steps (After Setup)
+- [ ] Set up PostgreSQL database
+- [ ] Configure environment variables (.env files)
+- [ ] Run Prisma migrations
+- [ ] Test registration and login flow
+- [ ] Test protected routes
+- [ ] Test admin-only routes
+- [ ] Test i18next language switching
+- [ ] Test token refresh functionality
+
+## Production Checklist
+- [ ] Change JWT secrets to strong random strings
+- [ ] Set up production database
+- [ ] Configure CORS for production domain
+- [ ] Set up HTTPS
+- [ ] Build frontend for production
+- [ ] Set up environment variables in production
+- [ ] Test all endpoints in production environment
+- [ ] Set up monitoring and logging
+

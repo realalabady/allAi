@@ -1,0 +1,72 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "language": "Language"
+  },
+  "landing": {
+    "title": "Welcome to Our Platform",
+    "subtitle": "Get started by creating an account or logging in",
+    "getStarted": "Get Started",
+    "alreadyHaveAccount": "Already have an account?"
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Sign up to get started",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "success": "Account created successfully!",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Login here"
+  },
+  "login": {
+    "title": "Login",
+    "subtitle": "Welcome back! Please login to your account",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "dontHaveAccount": "Don't have an account?",
+    "registerLink": "Register here",
+    "success": "Logged in successfully!"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to your dashboard",
+    "userInfo": "User Information",
+    "email": "Email",
+    "role": "Role",
+    "memberSince": "Member Since"
+  },
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "confirmPasswordRequired": "Please confirm your password",
+    "passwordsDoNotMatch": "Passwords do not match"
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "Unauthorized. Please login again.",
+    "forbidden": "You don't have permission to access this resource.",
+    "notFound": "Resource not found.",
+    "serverError": "Server error. Please try again later."
+  }
+}
+
