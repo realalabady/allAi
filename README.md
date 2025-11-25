@@ -269,36 +269,6 @@ npm run build
 - `GET /users` - Get all users (Admin only)
 - `GET /users/:id` - Get user by ID (Admin only)
 
-## Features
-
-### Authentication
-
-- ✅ User registration with email and password
-- ✅ User login with JWT tokens (access + refresh)
-- ✅ Automatic token refresh on 401 errors
-- ✅ Protected routes on frontend
-- ✅ JWT authentication guards on backend
-
-### Authorization
-
-- ✅ Role-based access control (USER, ADMIN)
-- ✅ Admin-only protected routes
-- ✅ Role guards and decorators
-
-### Internationalization
-
-- ✅ Full i18next setup with English and Arabic
-- ✅ Language switcher component
-- ✅ RTL support for Arabic
-- ✅ All UI text, labels, buttons, and error messages translated
-
-### UI/UX
-
-- ✅ Modern, clean design with TailwindCSS
-- ✅ Responsive layout
-- ✅ Form validation with error messages
-- ✅ Loading states
-- ✅ Error handling
 
 ## Database Schema
 
@@ -376,13 +346,7 @@ npx prisma studio
 3. **Type Safety**: All API responses are typed and shared between frontend and backend
 4. **Token Expiry**: Access tokens expire in 15 minutes, refresh tokens in 7 days
 
-## Security Notes
 
-- ⚠️ **Never commit `.env` files** - They contain sensitive secrets
-- ⚠️ **Change JWT secrets** in production
-- ⚠️ **Use strong passwords** for database
-- ⚠️ **Enable HTTPS** in production
-- ⚠️ **Set proper CORS** origins in production
 
 ## License
 
